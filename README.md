@@ -1,3 +1,16 @@
+# 주의 사항 
+깃으로 다운받을 경우, .env 파일이 없습니다.
+.env 파일 생성하시고 아래 내용 붙여넣기 해주시고 본인 키 넣어주시면 됩니다.
+```
+# API Keys
+# OPENAI_API_KEY=YOUR_OPENAI_KEY
+OPENAI_API_KEY=YOUR_OPENAI_KEY
+GEMINI_API_KEY=YOUR_GEMINI_KEY
+
+# Vector DB (로컬 chroma 경로)
+CHROMA_PATH=./chroma_store
+```
+
 # LlamaIndex Workshop Hands-on Package (v2)
 
 ## 폴더 구조
